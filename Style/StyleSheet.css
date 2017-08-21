@@ -1,0 +1,410 @@
+﻿
+/* startpageCss  -start*/
+body.StartBody {
+    /*background-image: url('../images/bg.jpg');*/
+    background-image: url('../images/Startpage1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#start_Container{
+
+    width: 40%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Space{
+    width: 800px;
+   height: 80px;
+   order: initial;
+   text-align: center;
+}
+
+
+
+
+
+.startTitle_1{
+    color: #780000;
+    text-shadow:0px 0px 15px white;
+    font-size:20px;  
+    font-family:'Comic Sans MS';
+    font-weight:bold;
+    margin-left:5%;
+    margin-bottom:30px;
+
+   
+}
+
+.startTitle_2{
+
+    color: black;
+    font-style: italic;
+    text-shadow:3px 3px 3px #cccccc;
+}
+
+
+.startBt{
+    order: 4;
+  color: black;
+  display:  inline-block;
+  font-weight: bolder;
+  font-size:  120px;
+  border-style: outset;
+  border: 5px  dotted  white;
+  width: 490px;
+  height: 120px;
+  text-align: center;
+  background-color: black;
+  text-decoration: none;
+  text-shadow:0px 0px 15px white;
+}
+.startBt:hover{
+    color: white;
+}
+
+
+/* startpageCss  -end*/
+
+
+
+body.Master_Body {
+  /*background-image: url('../images/wood.jpg');
+  background-size: 500px;
+  max-height: 800px;*/
+  background-image: url('../images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-color: black;
+  
+}
+
+body.testimgBody {
+    background-image: url('../images/wood2.jpg');
+    min-height: 850px;
+     background-size: cover;
+    
+    
+}
+
+/*Master-header -start*/
+.Top_Container{
+    /*display:flex;
+    height:50px;
+    width: 100%;
+    flex-direction:row;
+    border-bottom: 1px groove white ;*/
+    display:flex;
+    height:80px;
+    width: 100%;
+    background-color:black;
+    flex-direction:row;
+    border-bottom: 1px groove white ;
+    background-color:floralwhite;
+}
+
+.Team_Logo{
+    order:initial;
+    width:80px;
+    height:80px;
+    margin-top:5px;
+}
+
+.Image_Css{
+    width:80px;
+    height:75px;
+    padding-left : 40px;
+    
+ 
+}
+
+
+
+.H_Title{
+    color: chocolate;
+    font-weight: bolder;
+   font-family:cursive;
+   text-shadow:2px 2px 3px #434a54; 
+    font-size: 45px;
+    margin-top:5px;
+    /*display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;*/
+    padding: 8px 0px 0px 120px;
+
+    
+}
+.H_Search{
+    width:600px;
+    height:50px;
+    /*display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;*/
+   padding: 8px 0px 0px 30px;
+
+}
+.SearchBar{
+   border:2px solid #456879;
+	border-radius:50px;
+	height: 40px;
+	width: 400px;
+    text-align:center;
+    font-size:20px;
+    font-style:italic;
+    margin: 0px 20px 0px 0px;
+    background-color: black;
+    margin-left:50px;
+    margin-top:10px;
+}
+
+.Go_Css{
+     background-color: chocolate;
+     color: black;
+     width: 40px;
+     height:40px;
+     border-radius:50%;
+     border: 2px solid gray;
+     font-size:22px;
+     font-family:Verdana;
+     font-style:italic; 
+  
+}
+    .Go_Css:hover {
+    
+    color: wheat;
+    cursor: pointer;
+    }
+/*Master-header -end
+
+
+
+
+
+
+
+
+#Footer{
+    height: 50px;
+    background: black;
+    width: 100%;
+    color: white;
+    
+  
+}
+
+
+
+/*Menu -start*/
+.slideMenu{
+  width: 160px;
+  height: 480px;
+  /*border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;*/
+  padding: 15px 50px 10px 15px;
+  margin-right:50px;
+  position: fixed;
+  top: 200px;
+  right: -235px;
+  text-transform: uppercase;
+
+}
+
+.MenuBt {
+/*width: 180px;
+height: 50px;
+background-color: black;
+font-size: 20px;
+font-weight: bolder;
+font-family: cursive;
+text-shadow:0px 0px 15px white;
+cursor: pointer;*/ 
+color: wheat;
+    font-size: 25px;
+    margin: 45px 0px 0px 0px;
+   
+    border: 5px solid white;
+    background-image: url('../images/coffee.jpg');
+    border-radius:10px;
+    width: 230px;
+    border-style: outset;
+    text-shadow: 1px 1px 2px #2c5103;
+    text-align: center;
+    margin-right:150px;
+    padding-right:20px;
+    height:50px;
+    font-family:'Arial Rounded MT';
+    border-color:black;
+    font-weight:bold;
+    justify-content:center;
+
+ 
+}
+
+ .MenuBt:hover {    
+    color: cornflowerblue;
+ }
+
+.recentTopic {
+    color: chocolate;
+}
+
+
+/*Menu -end*/
+
+/*Space of putting imgs on the pages of every category- start*/
+.image_Con{
+    width:70%;
+    height:1000px ;
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:  flex-start;
+   /* padding: 20px 0px 0px 200px;
+    margin-left: 100px;*/
+    flex-wrap: wrap;
+
+}
+
+.Image_block{
+    width: 300px;
+    height: 300px;
+   
+    }
+
+
+.imgTest{
+    width: 80%;
+    height: 70%;
+    border-radius: 50%;
+    border: 5px solid black;
+  
+
+   
+
+}
+.imgTest:hover {    
+      background-color: white;  
+    border: 5px solid wheat;  
+   opacity: 0.8;
+   -webkit-transform: rotate(-7deg); 
+-moz-transform: rotate(-7deg); 
+-o-transform: rotate(-7deg); 
+    }
+
+
+.imageName {
+
+    background-color: #2b2a2a;
+    color: wheat;
+    width: 250px;
+
+   font-family: cursive;
+   text-align: center;
+
+
+}
+
+/*Space of putting imgs on the pages of every category- end*/
+
+/*After clicking imgs- start*/
+.sample_image_Con{
+
+    
+    height:250px ;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+
+}
+.detailImg{
+    margin: auto;
+    max-height:230px;
+    border: 3px solid black;    
+}
+
+.detailName {
+    color: #7d0909;
+    font-size:  50px;
+    margin: auto;
+    text-shadow: 2px 2px 10px wheat;
+   background-color: chocolate;
+    text-align:center;
+   
+
+
+}
+
+.tab_place{
+        max-width: 800px;
+        padding: 20px 0px 0px 120px;
+ 
+}
+
+
+
+.detailRecipe {
+    
+    background-color: #728bed;
+    font-size: larger;
+    width: 200px;
+    height: 80px;
+    text-decoration:none;
+    border: 3px solid black;
+   
+
+}
+
+    .detailRecipe:hover {
+    color: wheat;
+    
+    }
+
+#tab-2 {
+height: 500px;  
+
+}
+#tab-3 p {
+margin: 100px 0px 0 150px ;
+}
+
+#detailContainer{
+    max-width: 80%;
+    margin: auto;   
+    min-height: 300px;
+
+}
+
+#Footer {
+    height: 80px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-family:Verdana;
+    font-size:24px;
+   
+}
+
+
+
+/*After clicking imgs- end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
